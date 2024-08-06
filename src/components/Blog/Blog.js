@@ -24,7 +24,7 @@ function Blog() {
           <Col md={4} className="project-card">
             <ProjectCard
               //imgPath={chatify}
-              isBlog={false}
+              isBlog={true}
               title="Justin Elected for Another Year"
               description="Justin Allard was reelected to the AFASD school board. He received the 4th most votes and will therefore receive one more year on the board."
               //ghLink=""
@@ -35,7 +35,7 @@ function Blog() {
           <Col md={4} className="project-card">
             <ProjectCard
               //imgPath={bitsOfCode}
-              isBlog={false}
+              isBlog={true}
               title="A-F School Board Candidate Forum Held"
               description="Justin Allard participated in a School Board candidate forum."
               //ghLink=""
@@ -72,7 +72,7 @@ function Blog() {
               title="Preparing Your Website for the Next Disaster"
               description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
               //ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
             />
           </Col>
 
