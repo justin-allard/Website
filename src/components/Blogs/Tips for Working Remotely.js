@@ -8,7 +8,7 @@ function WorkingRemotely() {
  
   return (
     <div>
-      <Container fluid>
+      <Container fluid className="interior-section">
         <Particle />
 
 

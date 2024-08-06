@@ -741,3 +741,14 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+
+
+/**Interior Page**/
+
+.interior-section {
+  position: relative !important;
+  padding-top: 110px !important;
+  padding-bottom: 30px !important;
+  background-image: var(--section-background-color) !important;
+  color: white !important;
+}
