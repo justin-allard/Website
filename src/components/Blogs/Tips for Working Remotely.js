@@ -1,6 +1,7 @@
 import { Container, Row } from "react-bootstrap";
 import Particle from "../Particle";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
+import RecentBlogs from "./RecentBlogs";
 
 
 function WorkingRemotely() {
@@ -29,8 +30,11 @@ function WorkingRemotely() {
 
       
       </Container>
+      <RecentBlogs/>
     </div>
+    
   );
 }
 
 export default WorkingRemotely;
+
