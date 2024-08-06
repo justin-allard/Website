@@ -56,7 +56,7 @@ function Blog() {
             <ProjectCard
               isBlog={true}
               title="Preparing Your Website for the Next Disaster"
-              description="I have found this to be one of the most important things to do when working remotely. A routine will help you get into a rhythm and stay productive throughout the day."
+              description="Has your website held its own during the COVID-19 Pandemic? Are there features that you wish you would have had in place to make your life easier?"
               ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
             />
           </Col>
@@ -65,8 +65,7 @@ function Blog() {
             <ProjectCard
               isBlog={true}
               title="Tips for Working Remotely"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
+              description="I have found this to be one of the most important things to do when working remotely. A routine will help you get into a rhythm and stay productive throughout the day."
               ghLink="/blog/tips-for-working-remotely"
             />
           </Col>
