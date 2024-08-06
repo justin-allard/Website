@@ -7,7 +7,7 @@ import Projects from "./components/Projects/Projects";
 import Blog from "./components/Blog/Blog";
 import Footer from "./components/Footer";
 import Resume from "./components/Resume/ResumeNew";
-import Resume from "./components/Scholarship/Scholarship";
+import Scholarship from "./components/Scholarship/Scholarship";
 import {
   BrowserRouter as Router,
   Route,
