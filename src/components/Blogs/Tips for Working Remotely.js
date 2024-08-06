@@ -8,13 +8,13 @@ function WorkingRemotely() {
  
   return (
     <div>
-      <Container fluid className="interior-section">
+      <Container fluid className="interior-section blog-post">
         <Particle />
 
 
         <Row>
-        <h1 class="vw-page-title">Tips for Working Remotely</h1>
-   
+        <h1 class="vw-page-title purple">Tips for Working Remotely</h1>
+   <br/>
         </Row>
         <Row>
         <h3>Set a Routine</h3>

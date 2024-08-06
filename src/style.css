@@ -752,3 +752,18 @@ button:focus {
   background-image: var(--section-background-color) !important;
   color: white !important;
 }
+
+
+/**Blog Page**/
+.interior-section.blog-post{
+  padding-left: 4rem !important;
+  padding-right: 4rem !important;
+}
+
+.interior-section.blog-post h3{
+  text-align:left;
+}
+
+.interior-section.blog-post p{
+  text-align:left;
+}
