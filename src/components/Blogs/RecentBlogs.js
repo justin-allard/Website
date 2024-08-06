@@ -1,4 +1,4 @@
-import { Container, Row } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import ProjectCard from "../Blog/BlogCards";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
