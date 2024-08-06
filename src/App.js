@@ -7,6 +7,7 @@ import Projects from "./components/Projects/Projects";
 import Blog from "./components/Blog/Blog";
 import Footer from "./components/Footer";
 import Resume from "./components/Resume/ResumeNew";
+import Resume from "./components/Scholarship/Scholarship";
 import {
   BrowserRouter as Router,
   Route,
@@ -17,6 +18,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Scholarship from "./components/Scholarship/Scholarship";
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -42,6 +44,7 @@ function App() {
           <Route path="/resume" element={<Resume />} />
           <Route path="*" element={<Navigate to="/"/>} />
           <Route path="/blog" element={<Blog />} />
+          <Route path="/scholarship" element={<Scholarship />} />
         </Routes>
         <Footer />
       </div>
