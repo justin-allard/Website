@@ -8,6 +8,7 @@ import Blog from "./components/Blog/Blog";
 import Footer from "./components/Footer";
 import Resume from "./components/Resume/ResumeNew";
 import Scholarship from "./components/Scholarship/Scholarship";
+import Experience from "./components/Experience/Experience";
 import {
   BrowserRouter as Router,
   Route,
@@ -44,6 +45,7 @@ function App() {
           <Route path="*" element={<Navigate to="/"/>} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/scholarship" element={<Scholarship />} />
+          <Route path="/experience" element={<Experience />} />
         </Routes>
         <Footer />
       </div>
