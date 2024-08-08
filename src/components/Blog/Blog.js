@@ -1,6 +1,5 @@
 import React, { useEffect, useState }  from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import ProjectCard from "./BlogCards";
+import { Container} from "react-bootstrap";
 import WPBlog from "./WPBlog";
 import Particle from "../Particle";
 import axios from "axios"
