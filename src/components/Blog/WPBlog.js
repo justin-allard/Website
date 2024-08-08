@@ -3,19 +3,8 @@ import React, { useEffect, useState } from "react";
 
 
 export default function WPBlog({ post }) {
-  const [featuredImage, setFeaturedimage] = useState();
 
-  const getImage = () => {
-    axios
-     .get(post?._links["wp:featuredmedia"][0]?.href)
-     .then((response) => {
-      setFeaturedimage(response.data.source_url);
-    });
-  };
 
-  useEffect(() => {
-    getImage();
-  }, []);
 
   return (
     <div class="container">
@@ -32,7 +21,7 @@ export default function WPBlog({ post }) {
           className="blog-excerpt"
           dangerouslySetInnerHTML={{ __html: post.excerpt.rendered }}
         />
-        <img src={featuredImage} class="mask" />
+  
       </div>
     </div>
   );
