@@ -1,6 +1,7 @@
 import { Container, Row } from "react-bootstrap";
 import Particle from "../Particle";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
+import Posts from "../Posts";
 
 
 function Scholarship() {
@@ -30,6 +31,8 @@ function Scholarship() {
    
    <p>2024 – Camryn Clark</p>
         </Row>
+
+        <Posts />
 
       
       </Container>
