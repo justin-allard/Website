@@ -1,7 +1,7 @@
 import { Container, Row } from "react-bootstrap";
 import Particle from "../Particle";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
-
+import Posts from "../../Posts";
 
 
 function Scholarship() {
