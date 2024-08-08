@@ -1,5 +1,6 @@
 import React from 'react';
 import Card from "react-bootstrap/Card";
+import useFetch from './usefetch';
 
 
 
@@ -13,7 +14,6 @@ export default function Posts() {
     
     <Card.Body>
       <Card.Title>{{__html: post.title.rendered}}</Card.Title>
-      <CgCalendar />
       <Card.Text style={{ textAlign: "justify" }}>
       {{__html: post.content.rendered}}
       </Card.Text>
