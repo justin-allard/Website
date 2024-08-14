@@ -273,12 +273,12 @@ button:focus {
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: #1bfffd !important;
+  color: #516D81 !important;
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  color: #1bfffd !important;
+  color: #516D81 !important;
 }
 
 @media (max-width: 767px) {
@@ -358,7 +358,7 @@ button:focus {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: #1bfffd;
+  background: #516D81;
   transition: 0.5s;
   transform: scale(0.9);
   z-index: -1;
@@ -366,13 +366,13 @@ button:focus {
 
 .home-social-icons:hover::before {
   transform: scale(1.1);
-  box-shadow: 0 0 15px #1bfffd;
+  box-shadow: 0 0 15px #516D81;
 }
 
 .home-social-icons:hover {
-  color: #1bfffd;
-  box-shadow: 0 0 5px #1bfffd;
-  text-shadow: 0 0 2px #1bfffd;
+  color: #516D81;
+  box-shadow: 0 0 5px #516D81;
+  text-shadow: 0 0 2px #516D81;
 }
 
 .social-icons {
@@ -382,14 +382,14 @@ button:focus {
 }
 
 .icon-colour {
-  color: #1bfffd !important;
+  color: #516D81 !important;
 }
 
 /* --------- */
 /* Footer */
 /* --------- */
 .footer {
-  background-color: rgb(10, 4, 22);
+  background-color: #516D81;
   bottom: 0 !important;
   padding-top: 10px !important;
   padding-bottom: 8px !important ;
@@ -426,7 +426,7 @@ button:focus {
 }
 
 .blockquote-footer {
-  color: #a588c0 !important;
+  color: #516D81 !important;
 }
 /* --------- */
 /* Projects */
@@ -505,14 +505,14 @@ button:focus {
 
 .btn-primary {
   color: #fff !important;
-  background-color: #1bfffd !important;
-  border-color: #1bfffd !important;
+  background-color: #516D81 !important;
+  border-color: #516D81 !important;
 }
 
 .btn-primary:hover {
   color: #fff !important;
-  background-color: #1bfffd !important;
-  border-color: #1bfffd !important;
+  background-color: #516D81 !important;
+  border-color: #516D81 !important;
 }
 .btn:focus {
   outline: none !important;
@@ -706,29 +706,6 @@ button:focus {
     transform: scale(1);
   }
 }
-
-.fork-btn {
-  font-size: 1.1em !important;
-  padding-top: 10px !important;
-}
-
-.fork-btn-inner {
-  line-height: 1.4em !important;
-  background-color: #934cce5e !important;
-  padding: 0.25rem 1.1rem !important;
-  vertical-align: middle !important;
-  text-align: center !important;
-}
-
-.fork-btn-inner:hover {
-  transform: translateY(-2px) !important;
-  background-color: #1bfffd !important;
-  border-color: #1bfffd !important;
-}
-.fork-btn-inner::after {
-  display: none !important;
-}
-
 
 /**Interior Page**/
 
