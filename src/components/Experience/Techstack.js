@@ -40,74 +40,74 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiFirefoxbrowser />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={1} className="tech-icons">
         <SiDotnet />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={1} className="tech-icons">
         <SiFilezilla  />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={1} className="tech-icons">
         <SiGithub />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={1} className="tech-icons">
         <SiMailchimp />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={1} className="tech-icons">
         <SiHubspot />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={1} className="tech-icons">
         <SiGodaddy />
       </Col>
 
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={1} className="tech-icons">
         <SiGooglesearchconsole  />
       </Col>
 
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={1} className="tech-icons">
         <SiGoogleanalytics  />
       </Col>
 
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={1} className="tech-icons">
         <SiWordpress  />
       </Col>
 
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={1} className="tech-icons">
         <SiVisualstudio  />
       </Col>
 
 
 
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={1} className="tech-icons">
         <SiSass  />
       </Col>
 
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={1} className="tech-icons">
         <SiReact />
       </Col>
 
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={1} className="tech-icons">
         <SiPhp />
       </Col>
 
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={1} className="tech-icons">
         <SiMicrosoft />
       </Col>
 
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={1} className="tech-icons">
         <SiMicrosoftazure />
       </Col>
 
 
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={1} className="tech-icons">
         <SiLighthouse />
       </Col>
 
 
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={1} className="tech-icons">
         <SiKentico />
       </Col>
 
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={1} className="tech-icons">
         <SiJsfiddle />
       </Col>
 
