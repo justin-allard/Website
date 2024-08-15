@@ -1,20 +1,7 @@
-import axios from "axios";
-import React, { useEffect, useState } from "react";
+import React from "react";
 
 
 export default function WPBlog({ post }) {
-
-  const [featuredImage, setFeaturedimage] = useState();
-
-  const getImage = () => {
-    axios
-     .get(post?._links["wp:featuredmedia"][0]?.href)
-     .then((response) => {
-      setFeaturedimage(response.data.source_url);
-    });
-  };
-
-
 
 
   return (
@@ -30,7 +17,7 @@ export default function WPBlog({ post }) {
             year: "numeric",
           })}
         </p>
-        <img src={featuredImage} alt="featured image" class="mask" />
+       
       <p class="card-text" style={{textAlign: 'justify'}}>{{__html:post.excerpt.rendered}}</p>
       
       <a role="button" tabindex="0" href="/" class="btn btn-primary">Read More</a>
