@@ -4,8 +4,8 @@ html {
   --imp-text-color: #516D81;
 }
 
-.purple {
-  color: var(--imp-text-color) !important;
+h1, h2 {
+  color: #516D81;
 }
 
 button:focus {
@@ -536,6 +536,13 @@ button:focus {
   background-image: var(--section-background-color) !important;
   color: white !important;
 }
+
+
+.educationLogo {
+  max-width: 40%;
+  padding-bottom: 2rem;
+}
+
 
 .tech-icons {
   font-size: 4.5em !important;

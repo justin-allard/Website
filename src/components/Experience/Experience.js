@@ -28,9 +28,9 @@ function Experience() {
         </Row>
 
 
-        <h1 className="project-heading">
+        <h2>
           Professional Skillset
-        </h1>
+        </h2>
 
         <Techstack />
 
