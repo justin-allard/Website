@@ -14,9 +14,7 @@ export default function WPBlog({ post }) {
     });
   };
 
-  useEffect(() => {
-    getImage();
-  }, []);
+
 
 
   return (
@@ -32,7 +30,7 @@ export default function WPBlog({ post }) {
             year: "numeric",
           })}
         </p>
-        <img src={featuredImage} class="mask" />
+        <img src={featuredImage} alt="featured image" class="mask" />
       <p class="card-text" style={{textAlign: 'justify'}}>{{__html:post.excerpt.rendered}}</p>
       
       <a role="button" tabindex="0" href="/" class="btn btn-primary">Read More</a>
