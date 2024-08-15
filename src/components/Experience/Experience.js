@@ -12,7 +12,7 @@ function Experience() {
       <Container fluid className="resume-section">
         <Particle />
 
-
+<Container>
         <Row>
         <h1 class="vw-page-title">Experience</h1>
    
@@ -27,7 +27,7 @@ function Experience() {
         
         
         </Row>
-
+</Container>
        
 
 
