@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
+
 
 function AboutCard() {
   return (
@@ -8,33 +8,15 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
-            <br />
-            I am currently employed as a software developer at Juspay.
-            <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
-            <br />
-            <br />
-            Apart from coding, some other activities that I love to do!
+          I live in a small town in central Wisconsin with my Wife. I graduated from the University of Wisconsin-Green Bay in 2016 with a Bachelors of Science degree in Information Science and Computer Science. I am currently a member of the Adams-Friendship Area School District Board of Education. In my free time I enjoy spending time outside and volunteering for the A-F Snack Pack Program and as a Hunter Safety Instructor.
           </p>
-          <ul>
-            <li className="about-activity">
-              <ImPointRight /> Playing Games
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Travelling
-            </li>
-          </ul>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+          <p style={{ textAlign: "justify" }}>
+          I am currently employed as a Software Engineer at Heartland Business Systems. I focus on working in the web space with Kentico Experience CMS. I have worked with a variety of different technologies including C#, .NET, MVC, HTML, CSS, JavaScript, SQL, PHP, and Web Forms.
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+         
+
+         
         </blockquote>
       </Card.Body>
     </Card>
