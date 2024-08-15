@@ -124,9 +124,7 @@ function Experience() {
 </Row>
 
 
-        <h2>
-          Professional Skillset
-        </h2>
+<hr/>
 
         <Techstack />
 

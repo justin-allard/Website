@@ -1,68 +1,149 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
+
 import {
-  DiJavascript1,
-  DiReact,
-  DiNodejs,
-  DiMongodb,
-  DiPython,
-  DiGit,
-  DiJava,
-} from "react-icons/di";
-import {
-  SiRedis,
-  SiFirebase,
-  SiNextdotjs,
-  SiSolidity,
-  SiPostgresql,
+  SiAdobephotoshop,
+  SiAdobeindesign,
+  SiAzuredevops,
+  SiCloudflare,
+  SiCsharp,
+  SiCsswizardry,
+  SiDotnet,
+  SiFilezilla,
+  SiFirefoxbrowser,
+  SiGithub,
+  SiGit,
+  SiGooglemaps,
+  SiGulp,
+  SiJavascript,
+  SiJsfiddle,
+  SiKentico,
+  SiMailchimp,
+  SiLighthouse,
+  SiMicrosoftazure,
+  SiMicrosoft,
+  SiPhp,
+  SiReact,
+  SiSass,
+  SiVisualstudio,
+  SiWordpress,
+  SiGoogleanalytics,
+  SiGooglesearchconsole,
+  SiHubspot,
+  SiGodaddy,
 } from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
+
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <SiFirefoxbrowser />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+        <SiDotnet />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
+        <SiFilezilla  />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <SiGithub />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+        <SiMailchimp />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
+        <SiHubspot />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
+        <SiGodaddy />
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGooglesearchconsole  />
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGoogleanalytics  />
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiWordpress  />
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiVisualstudio  />
+      </Col>
+
+
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiSass  />
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiReact />
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPhp />
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMicrosoft />
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMicrosoftazure />
+      </Col>
+
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiLighthouse />
+      </Col>
+
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiKentico />
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiJsfiddle />
+      </Col>
+
+
+
+
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiJavascript />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
+        <SiGulp />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <SiGooglemaps />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
+        <SiGit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
+        <SiCsswizardry  />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
+        <SiCsharp />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
+        <SiCloudflare />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+        <SiAzuredevops />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAdobeindesign />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAdobephotoshop />
       </Col>
     </Row>
   );
