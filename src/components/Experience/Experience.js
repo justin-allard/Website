@@ -20,108 +20,21 @@ function Experience() {
 
         <Row>
 
-        <Col xs={12} md={4}>
-
+        <Col xs={12} md={12}>
+<p>I am currently a Sofware Engineer at Heartland Business Systems. I develop and maintain websites and custom apps for customers all over the world. I primarily work with the .net stack but do have some experience with php. I work with a variety of different CMS tools including; Kentico and WordPress. For a full listing of my experience, please find me on LinkedIn.</p>
       </Col>
-      <Col xs={12} md={8}>
-      <h3>Heartland Business Systems</h3>
-        
-   
-        <p>November 2016 – Present<br/>Software Engineer<br/><br/>I develop and maintain websites primarily using Kentico Experience and the .net stack. I also have used many other CMS tools including WordPress and Sitecore.</p>
-        
-</Col>
+    
         
         
         </Row>
 
-        <Row>
-
-<Col xs={12} md={4}>
-
-</Col>
-<Col xs={12} md={8}>
-<h3>Heartland Business Systems</h3>
+       
 
 
-<p>November 2016 – Present<br/>Software Engineer<br/><br/>I develop and maintain websites primarily using Kentico Experience and the .net stack. I also have used many other CMS tools including WordPress and Sitecore.</p>
-
-</Col>
 
 
-</Row>
-
-<Row>
-
-<Col xs={12} md={4}>
-
-</Col>
-<Col xs={12} md={8}>
-<h3>UW-Green Bay</h3>
 
 
-</Col>
-
-
-</Row>
-
-
-<Row>
-
-<Col xs={12} md={4}>
-
-</Col>
-<Col xs={12} md={8}>
-<h3>Free Lance Web Developer</h3>
-
-
-</Col>
-
-
-</Row>
-
-
-<Row>
-
-<Col xs={12} md={4}>
-
-</Col>
-<Col xs={12} md={8}>
-<h3>Adams-Columbia Electric Cooperative</h3>
-
-
-</Col>
-
-
-</Row>
-
-
-<Row>
-
-<Col xs={12} md={4}>
-
-</Col>
-<Col xs={12} md={8}>
-<h3>UW – Green Bay</h3>
-
-
-</Col>
-
-
-</Row>
-
-<Row>
-
-<Col xs={12} md={4}>
-
-</Col>
-<Col xs={12} md={8}>
-<h3>Wisconsin Space Grant Consortium</h3>
-
-
-</Col>
-
-
-</Row>
 
 
 <hr/>
