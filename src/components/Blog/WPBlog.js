@@ -18,7 +18,12 @@ export default function WPBlog({ post }) {
           })}
         </p>
        
-      <p class="card-text" style={{textAlign: 'justify'}}>{post.excerpt.rendered}</p>
+  
+      <p
+          className="card-text"
+          style={{textAlign: 'justify'}}
+          dangerouslySetInnerHTML={{ __html: post.excerpt.rendered }}
+        />
       
       <a role="button" tabindex="0" href="/" class="btn btn-primary">Read More</a>
 
