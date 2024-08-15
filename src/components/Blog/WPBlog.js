@@ -25,6 +25,14 @@ export default function WPBlog({ post }) {
   <div class="project-card-view card">
     <div class="card-body">
       <div class="card-title h5">{post.title.rendered}</div>
+      <p className="blog-date">
+          {new Date(Date.now()).toLocaleDateString("en-US", {
+            day: "numeric",
+            month: "long",
+            year: "numeric",
+          })}
+        </p>
+        <img src={featuredImage} class="mask" />
       <p class="card-text" style={{textAlign: 'justify'}}>{{__html:post.excerpt.rendered}}</p>
       
       <a role="button" tabindex="0" href="/" class="btn btn-primary">Read More</a>
