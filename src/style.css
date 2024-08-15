@@ -711,6 +711,10 @@ button:focus {
   color: white !important;
 }
 
+.blogTitle{
+  color:#516D81;
+}
+
 
 /**Blog Page**/
 .interior-section.blog-post{
@@ -725,3 +729,4 @@ button:focus {
 .interior-section.blog-post p{
   text-align:left;
 }
+

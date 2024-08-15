@@ -9,9 +9,9 @@ export default function WPBlog({ post }) {
 <div class="project-card col-md-4">
   <div class="project-card-view card">
     <div class="card-body">
-      <div class="card-title h5">{post.title.rendered}</div>
+      <div class="card-title blogTitle">{post.title.rendered}</div>
       <p className="blog-date">
-          {new Date(Date.now()).toLocaleDateString("en-US", {
+          {new Date(post.Date).toLocaleDateString("en-US", {
             day: "numeric",
             month: "long",
             year: "numeric",
