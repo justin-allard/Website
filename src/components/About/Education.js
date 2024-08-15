@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import greendevil from "../../Assets/afhs.png";
-import uwgb from "../../Assets/uwgb.png";
+import uwgb from "../../Assets/UWGB.png";
 
 function Education() {
   return (
