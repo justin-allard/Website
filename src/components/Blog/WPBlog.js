@@ -11,7 +11,7 @@ export default function WPBlog({ post }) {
     <div class="card-body">
       <div class="card-title blogTitle">{post.title.rendered}</div>
       <p className="blog-date">
-          {new Date(post.Date).toLocaleDateString("en-US", {
+          {post.Date.toLocaleDateString("en-US", {
             day: "numeric",
             month: "long",
             year: "numeric",
