@@ -1,5 +1,6 @@
 import { Container, Row } from "react-bootstrap";
 import Particle from "../Particle";
+import Techstack from "./Techstack";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 
 
@@ -25,6 +26,13 @@ function Experience() {
    <p>November 2016 – Present<br/>Software Engineer<br/><br/>I develop and maintain websites primarily using Kentico Experience and the .net stack. I also have used many other CMS tools including WordPress and Sitecore.</p>
    
         </Row>
+
+
+        <h1 className="project-heading">
+          Professional Skillset
+        </h1>
+
+        <Techstack />
 
       
       </Container>
