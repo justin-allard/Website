@@ -27,7 +27,7 @@ function Blog() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My <strong className="purple">Blog</strong>
+          My Blog
         </h1>
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
