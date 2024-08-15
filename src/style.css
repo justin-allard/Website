@@ -539,7 +539,7 @@ button:focus {
 
 
 .educationLogo {
-  max-width: 40%;
+  max-width: 40% !important;
   padding-bottom: 2rem;
 }
 
