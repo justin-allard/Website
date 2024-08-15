@@ -56,16 +56,7 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/project"
-                onClick={() => updateExpanded(false)}
-              >
-                
-                Projects
-              </Nav.Link>
-            </Nav.Item>
+           
 
             <Nav.Item>
               <Nav.Link
