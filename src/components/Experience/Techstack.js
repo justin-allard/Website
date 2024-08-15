@@ -115,34 +115,34 @@ function Techstack() {
 
 
 
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={1} className="tech-icons">
         <SiJavascript />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={1} className="tech-icons">
         <SiGulp />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={1} className="tech-icons">
         <SiGooglemaps />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={1} className="tech-icons">
         <SiGit />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={1} className="tech-icons">
         <SiCsswizardry  />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={1} className="tech-icons">
         <SiCsharp />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={1} className="tech-icons">
         <SiCloudflare />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={1} className="tech-icons">
         <SiAzuredevops />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={1} className="tech-icons">
         <SiAdobeindesign />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={1} className="tech-icons">
         <SiAdobephotoshop />
       </Col>
     </Row>
