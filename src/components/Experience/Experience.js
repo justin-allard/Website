@@ -18,10 +18,11 @@ function Experience() {
         </Row>
 
         <Row>
-        <h1 class="vw-page-title">Experience</h1>
+        
+        <h3>Heartland Business Systems</h3>
+        
    
-   
-   <p><strong>Heartland Business Systems</strong><br/>November 2016 – Present<br/>Software Engineer<br/><br/>I develop and maintain websites primarily using Kentico Experience and the .net stack. I also have used many other CMS tools including WordPress and Sitecore.</p>
+   <p>November 2016 – Present<br/>Software Engineer<br/><br/>I develop and maintain websites primarily using Kentico Experience and the .net stack. I also have used many other CMS tools including WordPress and Sitecore.</p>
    
         </Row>
 
