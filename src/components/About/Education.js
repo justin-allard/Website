@@ -22,7 +22,8 @@ function Education() {
       <Col xs={12} md={6}>
       <img src={greendevil} alt="AFHS Logo" className="img-fluid educationLogo" />
       <h4>Adams-Friendship High School</h4>
-      <p>High School Diploma<br/>Graduated: 2012</p>
+      <p>High School Diploma<br/>
+      Graduated: 2012</p>
       </Col>
     </Row>
   );
