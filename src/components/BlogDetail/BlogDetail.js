@@ -17,7 +17,7 @@ var apiURL = "https://justinallard.net/wp-json/wp/v2/posts?slug="+blogSlug;
 
   const fetchPosts = () => {
     axios
-      .get(apiURL)
+      .get(apiURL.toString())
       .then((res) => {
         setPosts(res.data);
       });
