@@ -10,14 +10,14 @@ function BlogDetail() {
   const queryParams = new URLSearchParams(window.location.search);
   const blogSlug = queryParams.get("slug");
 
-var apiURL = "https://justinallard.net/wp-json/wp/v2/posts?slug="+blogSlug;
+var apiURL = ("https://justinallard.net/wp-json/wp/v2/posts?slug="+blogSlug).toString;
 
 
   const [posts, setPosts] = useState([]);
 
   const fetchPosts = () => {
     axios
-      .get(apiURL.toString())
+      .get(apiURL)
       .then((res) => {
         setPosts(res.data);
       });
