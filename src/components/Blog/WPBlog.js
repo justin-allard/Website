@@ -10,14 +10,7 @@ export default function WPBlog({ post }) {
   <div class="project-card-view card">
     <div class="card-body">
       <div class="card-title blogTitle">{post.title.rendered}</div>
-      <p className="blog-date">
-          {post.Date.toLocaleDateString("en-US", {
-            day: "numeric",
-            month: "long",
-            year: "numeric",
-          })}
-        </p>
-       
+      
   
       <p
           className="card-text"
