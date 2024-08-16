@@ -18,7 +18,7 @@ export default function WPBlog({ post }) {
           dangerouslySetInnerHTML={{ __html: post.excerpt.rendered }}
         />
       
-      <a role="button" tabindex="0" href="/" class="btn btn-primary">Read More</a>
+      <a role="button" tabindex="0" href={"/blogdetail?slug="+post.slug} class="btn btn-primary">Read More</a>
 
 </div>
 </div>

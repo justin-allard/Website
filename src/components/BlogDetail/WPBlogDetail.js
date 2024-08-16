@@ -9,7 +9,6 @@ export default function WPBlogDetail({ post }) {
   <div class="blogDetail">
 
 
-<Container>
 <Row>
         <Col xs={12} md={12}>
         <h1>{post.title.rendered}</h1>
@@ -33,7 +32,7 @@ export default function WPBlogDetail({ post }) {
         </Row>
 
 
-</Container>
+
 
 
       
