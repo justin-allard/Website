@@ -10,6 +10,7 @@ import Resume from "./components/Resume/ResumeNew";
 import Scholarship from "./components/Scholarship/Scholarship";
 import Experience from "./components/Experience/Experience";
 import WorkingRemotely from "./components/Blogs/Tips for Working Remotely";
+import BlogDetail from "./components/BlogDetail/BlogDetail";
 
 import {
   BrowserRouter as Router,
@@ -46,6 +47,7 @@ function App() {
           <Route path="/resume" element={<Resume />} />
           <Route path="*" element={<Navigate to="/"/>} />
           <Route path="/blog" element={<Blog />} />
+          <Route path="/blogdetail" element={<BlogDetail />} />
           <Route path="/scholarship" element={<Scholarship />} />
           <Route path="/experience" element={<Experience />} />
           <Route path="/blog/tips-for-working-remotely" element={<WorkingRemotely />} />
