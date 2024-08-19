@@ -15,17 +15,17 @@ function BlogDetail() {
 
   const [posts, setPosts] = useState([]);
 
-  const fetchPosts = () => {
+  const fetchPosts = useCallback(() => {
     axios
       .get(url)
       .then((res) => {
         setPosts(res.data);
       });
-  }
+  }, [url]);
 
   useEffect(() => {
-    fetchPosts()
-  }, [])
+    fetchPosts();
+  }, [fetchPosts]);
 
 
   return (
