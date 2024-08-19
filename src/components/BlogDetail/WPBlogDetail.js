@@ -25,11 +25,6 @@ export default function WPBlogDetail({ post }) {
       </Col>
         </Row>
 
-        <Row>
-        <Col xs={12} md={12}>
-        <a role="button" tabindex="0" href="/blog" class="btn btn-primary">More Blogs</a>
-      </Col>
-        </Row>
 
 
 

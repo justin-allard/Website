@@ -43,6 +43,16 @@ function BlogDetail() {
         />
       ))}
     </div>
+
+    <div class="row">
+      <div class="col-12">
+      <a role="button" tabindex="0" href="/blog" class="btn btn-primary">More Blogs</a>
+     
+      </div>
+      
+        
+    
+    </div>
        
       </Container>
     </Container>
