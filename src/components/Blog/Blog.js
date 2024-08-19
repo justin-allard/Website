@@ -26,7 +26,7 @@ function Blog() {
     <Container fluid className="project-section">
       <Particle />
       <Container>
-        <h1 className="project-heading">
+        <h1>
           My Blog
         </h1>
     

@@ -9,7 +9,6 @@ import Footer from "./components/Footer";
 import Resume from "./components/Resume/ResumeNew";
 import Scholarship from "./components/Scholarship/Scholarship";
 import Experience from "./components/Experience/Experience";
-import WorkingRemotely from "./components/Blogs/Tips for Working Remotely";
 import BlogDetail from "./components/BlogDetail/BlogDetail";
 
 import {
@@ -50,7 +49,7 @@ function App() {
           <Route path="/blogdetail" element={<BlogDetail />} />
           <Route path="/scholarship" element={<Scholarship />} />
           <Route path="/experience" element={<Experience />} />
-          <Route path="/blog/tips-for-working-remotely" element={<WorkingRemotely />} />
+          
         </Routes>
         <Footer />
       </div>
