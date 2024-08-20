@@ -468,6 +468,14 @@ button:focus {
   border-radius: 0px !important;
 }
 
+
+/*Buttons*/
+
+.btn{
+  border-radius: 0;
+}
+
+
 .btn-primary {
   color: #fff !important;
   background-color: #516D81 !important;

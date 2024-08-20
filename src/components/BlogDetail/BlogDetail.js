@@ -43,8 +43,8 @@ function BlogDetail() {
     </div>
 
     <div class="row">
-      <div class="col-12">
-      <a role="button" tabindex="0" href="/blog" class="btn btn-primary">More Blogs</a>
+      <div class="col-12 text-start">
+      <a role="button" tabindex="0" href="/blog" class="btn btn-primary btn-blogdetail">More Blogs</a>
      
       </div>
       
