@@ -29,7 +29,6 @@ function BlogDetail() {
 
   return (
     <Container fluid className="project-section">
-      <Particle />
       <Container>
     
     
