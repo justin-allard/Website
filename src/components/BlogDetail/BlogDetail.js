@@ -2,7 +2,7 @@ import React, { useEffect, useState, useCallback }  from "react";
 import { Container} from "react-bootstrap";
 import WPBlogDetail from "./WPBlogDetail";
 import axios from "axios"
-
+import { BsArrowLeftSquare } from "react-icons/bs";
 
 function BlogDetail() {
 
@@ -44,7 +44,7 @@ function BlogDetail() {
 
     <div class="row">
       <div class="col-12 text-start">
-      <a role="button" tabindex="0" href="/blog" class="btn btn-primary btn-blogdetail">More Blogs</a>
+      <a role="button" tabindex="0" href="/blog" class="btn btn-primary btn-blogdetail"><BsArrowLeftSquare/> More Blogs</a>
      
       </div>
       
