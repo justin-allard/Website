@@ -1,7 +1,6 @@
 import React, { useEffect, useState, useCallback }  from "react";
 import { Container} from "react-bootstrap";
 import WPBlogDetail from "./WPBlogDetail";
-import Particle from "../Particle";
 import axios from "axios"
 
 
