@@ -9,7 +9,7 @@ function BlogDetail() {
   const queryParams = new URLSearchParams(window.location.search);
   const blogSlug = queryParams.get("slug");
 
-  const url = `https://justinallard.net/wp-json/wp/v2/posts?slug=${blogSlug}`;
+  const url = `https://blog.justinallard.net/wp-json/wp/v2/posts?slug=${blogSlug}`;
 
 
   const [posts, setPosts] = useState([]);
