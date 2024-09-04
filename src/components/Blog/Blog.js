@@ -11,7 +11,7 @@ function Blog() {
 
   const fetchPosts = () => {
     axios
-      .get("https://justinallard.net/wp-json/wp/v2/posts")
+      .get("https://blog.justinallard.net/wp-json/wp/v2/posts")
       .then((res) => {
         setPosts(res.data);
       });
