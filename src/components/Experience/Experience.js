@@ -1,6 +1,4 @@
 import { Container, Row, Col } from "react-bootstrap";
-import Particle from "../Particle";
-import Techstack from "./Techstack";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 
 
@@ -10,7 +8,7 @@ function Experience() {
   return (
     <div>
       <Container fluid className="resume-section">
-        <Particle />
+      
 
 <Container>
         <Row>
@@ -39,7 +37,7 @@ function Experience() {
 
 <hr/>
 
-        <Techstack />
+
 
       
       </Container>
