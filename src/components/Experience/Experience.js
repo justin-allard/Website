@@ -42,8 +42,8 @@ function Experience() {
   <div class="container left">
     <div class="content">
       <h2>Software Engineer II</h2>
-      <h4>Heartland Business Systems</h4>
-      <h5>2222 - Present</h5>
+      <h5>Heartland Business Systems</h5>
+      <h5>May 2022 - Present</h5>
       
       <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
     </div>
@@ -52,33 +52,27 @@ function Experience() {
     <div class="content">
       <h2>Software Engineer I</h2>
       <h5>Heartland Business Systems</h5>
+      <h5>November 2016 - May 2022</h5>
       <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
     </div>
   </div>
   <div class="container left">
     <div class="content">
-      <h2>2015</h2>
-      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+    <h2>Web Systems Analyst</h2>
+      <h5>University of Wisconsin-Green Bay · Internship</h5>
+      <h5>December 2014 - December 2016</h5>
+      <p>Help maintain the different websites owned by UW Green Bay. This included HTML, PHP, WordPress, and Kentico updates.</p>
     </div>
   </div>
   <div class="container right">
     <div class="content">
-      <h2>2012</h2>
-      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+    <h2>Freelance Web Developer</h2>
+      
+      <h5>September 2013 - November 2016</h5>
+      <p>I have worked with a variety of different businesses and organizations both large and small. I have built and maintained websites for non-profit organizations and sports teams. Some of my work includes: Wisconsin Bowfishing Association, A-F Trap Team, Adams County Chamber of Commerce, Practical Cents, Chick’s Softball Tournament</p>
     </div>
   </div>
-  <div class="container left">
-    <div class="content">
-      <h2>2011</h2>
-      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
-    </div>
-  </div>
-  <div class="container right">
-    <div class="content">
-      <h2>2007</h2>
-      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
-    </div>
-  </div>
+
 </div>
 
       
