@@ -1,7 +1,6 @@
 import React, { useEffect, useState }  from "react";
 import { Container} from "react-bootstrap";
 import WPBlog from "./WPBlog";
-import Particle from "../Particle";
 import axios from "axios"
 
 
@@ -24,7 +23,6 @@ function Blog() {
 
   return (
     <Container fluid className="project-section">
-      <Particle />
       <Container>
         <h1>
           My Blog
